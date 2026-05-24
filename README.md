@@ -17,9 +17,9 @@ this is how we rank the results so you get the most relevant stuff first. it sta
 all the files are laid out so they handle one specific part of the job. just run the main script and it will execute everything in sequence and check if each step is working properly. python main.py
 
 ## Project Structure
-init.py: handles the text cleanup and filtering
-index.py: reads the documents and builds the inverted index
-load.py: loads the saved index from the csv file
-tfidf.py: does all the math to calculate the relevance scores
-process.py: takes your search query and ranks the matching documents
-main.py: runs all of these steps in order and validates them
+- init.py: handles the text cleanup and filtering
+- index.py: reads the documents and builds the inverted index
+- load.py: loads the saved index from the csv file
+- tfidf.py: does all the math to calculate the relevance scores
+- process.py: takes your search query and ranks the matching documents
+- main.py: runs all of these steps in order and validates them
